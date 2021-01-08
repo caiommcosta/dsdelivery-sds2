@@ -12,5 +12,5 @@ export function fetchLocalMapBox(local: string) {
     return axios(`https://api.mapbox.com/geocoding/v5/mapbox.places/${local}.json?access_token=${mapboxToken}    `)
 }
 export function saveOrder(payLoad: OrderPayLoad) {
-    return axios.post(`${API_URL}/orders123`, payLoad);
+    return axios.post(`${API_URL}/orders`, payLoad);
 }
