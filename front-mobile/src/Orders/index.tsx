@@ -7,7 +7,6 @@ import Header from '../Header';
 import OrderCard from '../OrderCard';
 import { Order } from '../types';
 
-
 function Orders() {
   const [orders, setOrders] = useState<Order[]>([]);
   const [isLoading, setIsLoading] = useState(false);

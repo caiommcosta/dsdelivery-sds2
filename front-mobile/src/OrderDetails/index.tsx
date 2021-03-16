@@ -21,7 +21,7 @@ function OrderDetails({ route }: Props) {
     const navigation = useNavigation();
 
     const handleOnCancel = () => {
-    navigation.navigate('Orders');
+      navigation.navigate('Orders');
   }
 
   const handleConfirmDelivery = () => {
